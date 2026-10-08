@@ -25,11 +25,19 @@ for that future work.
 
 ## Sample data
 
-The `data/` folder contains a sample dataset of 500 support tickets in two
-formats: [`support_tickets_500.csv`](./data/support_tickets_500.csv) and
-[`support_tickets_500.json`](./data/support_tickets_500.json). These files are
-provided as input data for exploring and developing the future triage
-workflow.
+The `data/` folder contains two support-ticket datasets:
+
+- **500 unlabelled tickets** in
+  [`support_tickets_500.csv`](./data/support_tickets_500.csv) and
+  [`support_tickets_500.json`](./data/support_tickets_500.json), for exploring
+  and developing the triage workflow.
+- **100 labelled tickets** in
+  [`support_tickets_100_labelled.csv`](./data/support_tickets_100_labelled.csv)
+  and
+  [`support_tickets_100_labelled.json`](./data/support_tickets_100_labelled.json).
+  These include triage annotations such as category, priority, and whether a
+  ticket needs human review, making them useful for testing and evaluating
+  triage approaches.
 
 ## Run locally
 
