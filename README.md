@@ -23,6 +23,14 @@ an LLM provider as an intermediate step, before implementing the complete
 support ticket triage feature. The triage route and LLM client are placeholders
 for that future work.
 
+## Sample data
+
+The `data/` folder contains a sample dataset of 500 support tickets in two
+formats: [`support_tickets_500.csv`](./data/support_tickets_500.csv) and
+[`support_tickets_500.json`](./data/support_tickets_500.json). These files are
+provided as input data for exploring and developing the future triage
+workflow.
+
 ## Run locally
 
 Requires Node.js 20.9 or newer.
